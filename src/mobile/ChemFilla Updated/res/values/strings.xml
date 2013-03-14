@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chemfilla</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="syllabus">Mobile Syllabus</string>
+    <string name="screen">Chemfilla splash screen</string>
+    <string name="topic">Syllabus</string>
+    <string name="subject">Chemistry</string>
+    <string name="tchoice">Tutors Choice</string>
+    <string name="schoice">Students Choice</string>
+    <string name="alphabetTextView">alphabet</string>
+    <string name="buttontrig">Button</string>
+    <string name="filter">Search</string>
+    <string name="help">Help</string>
+    <string name="quizzes">Quiz</string>
+    <string name="about">About CF</string>
+    <string name="lesson">Lesson</string>
+    <string name="cftitle">About ChemFilla</string>
+    <string name="logo">Logo</string>
+    <string name="page2">Mobile technology can be used to make these resources readily available. However, growth in use of mobile technology is not impacting education in Ghana significantly due to the unavailability of suitable apps for teachers and students. Teachers, who even use technology, normally spend a lot of time assembling content from different sources before preparing lesson notes, exercises and examination.As part of the Coders for Africa Software Development Life Cycle Training, a team consisting of trainees is developing a mobile application for enhancing the teaching and learning of science. The goal is to make science material accessible on the go. This particular project will be focusing on chemistry.  The content that will provide will be based on the Ghana Education Service (GES) chemistry syllabus. The name of the mobile app will be ChemFilla.</string>
+    <string name="nxtpage">Page 2</string>
+    <string name="abouttxt">Teaching and learning of science is paramount to the development of every nation. Ghana is no exception to this fact.  Sometimes, resources for the teaching and learning of this field of study may not be readily available to teachers and students. Making such resources easily accessible to teachers and students will immensely improve the teaching and learning process.Teaching and learning of science is paramount to the development of every nation. Ghana is no exception to this fact.  Sometimes, resources for the teaching and learning of this field of study may not be readily available to teachers and students. Making such resources easily accessible to teachers and students will immensely improve the teaching and learning process,Teaching and learning of science is paramount to the development of every nation. Ghana is no exception to this fact.  Sometimes, resources for the teaching and learning of this field of study may not be readily available to teachers and students. Making such resources easily accessible to teachers and students will immensely improve the teaching and learning process</string>
+    <string name="shs1txt">SHS1 Lession</string>
+    <string name="shs2txt">SHS2 Lession</string>
+    <string name="shs3txt">SHS3 Lession</string>
+    <string name="information">Information</string>
+    <string name="title_activity_list_shs1">ListSHS1Activity</string>
+    <string name="title_activity_list_shs2">ListSHS2Activity</string>
+    <string name="title_activity_list_shs3">ListSHS3Activity</string>
+
+</resources>

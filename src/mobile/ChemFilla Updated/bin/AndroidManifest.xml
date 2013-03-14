@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.c4africa.chemfilla"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+       <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:debuggable="true">
+        <activity
+        	android:name="com.c4africa.chemfilla.StarterActivity" 
+        	android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.c4africa.chemfilla.SubActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.c4africa.chemfilla.SecondActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.c4africa.chemfilla.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.c4africa.chemfilla.ChoiceList"></activity>
+        <activity android:name="com.c4africa.chemfilla.ListActivity"></activity>
+        <activity android:name="com.c4africa.chemfilla.PagerActivity"></activity>
+        <activity android:name=".AndroidTabLayoutActivity"></activity>
+        <activity android:name="com.c4africa.chemfilla.ListSHS1Activity"></activity>
+        <activity android:name="com.c4africa.chemfilla.ListSHS2Activity"></activity>
+        <activity android:name="com.c4africa.chemfilla.ListSHS3Activity"></activity>
+    </application>
+
+</manifest>
