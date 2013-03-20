@@ -3,32 +3,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+    android:gravity="center_vertical|center_horizontal|center"
     android:orientation="vertical"
     tools:context=".StarterActivity" >
     
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/chemfillatitle"
+        android:layout_gravity="center"
         android:contentDescription="@string/syllabus"
-        android:paddingTop="50dp" />
+        android:src="@drawable/chemfillatitle" />
     
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/syllabus"
         android:textColor="#FFF" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:contentDescription="@string/screen"
-        android:paddingTop="50dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
         android:src="@drawable/splashscreen" />
    
 </LinearLayout>
