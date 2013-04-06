@@ -36,32 +36,31 @@ public final class R {
         public static final int splashscreen=0x7f020016;
     }
     public static final class id {
-        public static final int ViewPagerMainActivity=0x7f070011;
-        public static final int about=0x7f07000e;
+        public static final int ViewPagerMainActivity=0x7f07000b;
+        public static final int about=0x7f070013;
         public static final int abouttxt=0x7f070001;
-        public static final int action_search=0x7f070019;
+        public static final int action_search=0x7f070018;
         public static final int cftitle=0x7f070005;
-        public static final int help=0x7f07000f;
+        public static final int help=0x7f070012;
         public static final int imageView1=0x7f070004;
         public static final int imageView2=0x7f070003;
         public static final int inputSearch=0x7f070006;
-        public static final int lesson=0x7f07000c;
-        public static final int list=0x7f070012;
+        public static final int lesson=0x7f07000e;
         public static final int list_view=0x7f070007;
-        public static final int menu_settings=0x7f070018;
+        public static final int menu_settings=0x7f070017;
         public static final int p2txt=0x7f070002;
-        public static final int pager=0x7f070017;
-        public static final int product_name=0x7f070010;
-        public static final int quiz=0x7f07000d;
+        public static final int pager=0x7f070016;
+        public static final int product_name=0x7f07000a;
+        public static final int quiz=0x7f07000f;
         public static final int scrollView1=0x7f070000;
         public static final int subList=0x7f070009;
-        public static final int subject=0x7f07000b;
-        public static final int syllabus=0x7f07000a;
+        public static final int subject=0x7f07000d;
+        public static final int syllabus=0x7f07000c;
         public static final int textView1=0x7f070008;
-        public static final int txtabout=0x7f070016;
-        public static final int txthelp=0x7f070014;
-        public static final int txtlesson=0x7f070015;
-        public static final int txtquiz=0x7f070013;
+        public static final int txtabout=0x7f070015;
+        public static final int txthelp=0x7f070011;
+        public static final int txtlesson=0x7f070014;
+        public static final int txtquiz=0x7f070010;
     }
     public static final class layout {
         public static final int about_pg2=0x7f030000;
@@ -71,18 +70,13 @@ public final class R {
         public static final int activity_list_shs3=0x7f030004;
         public static final int activity_starter=0x7f030005;
         public static final int activity_sub=0x7f030006;
-        public static final int fluid_layout=0x7f030007;
-        public static final int inbox_list=0x7f030008;
-        public static final int lessons=0x7f030009;
-        public static final int list_item=0x7f03000a;
-        public static final int main=0x7f03000b;
-        public static final int outbox_list=0x7f03000c;
-        public static final int pager=0x7f03000d;
-        public static final int photos_layout=0x7f03000e;
-        public static final int secondview=0x7f03000f;
-        public static final int songs_layout=0x7f030010;
-        public static final int tablayout=0x7f030011;
-        public static final int videos_layout=0x7f030012;
+        public static final int lessons=0x7f030007;
+        public static final int list_item=0x7f030008;
+        public static final int main=0x7f030009;
+        public static final int pager=0x7f03000a;
+        public static final int secondview=0x7f03000b;
+        public static final int songs_layout=0x7f03000c;
+        public static final int tablayout=0x7f03000d;
     }
     public static final class menu {
         public static final int activity_list_shs1=0x7f060000;

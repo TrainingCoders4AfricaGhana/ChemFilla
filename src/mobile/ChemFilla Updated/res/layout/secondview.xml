@@ -1,159 +1,127 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
+    android:layout_gravity="center_vertical"
     android:background="#ffffff"
     android:fitsSystemWindows="true"
-    android:gravity="center_vertical|center_horizontal|center"
+    android:gravity="left"
     tools:context=".StarterActivity" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
+	 <TextView
+        android:id="@+id/syllabus"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:orientation="vertical" >
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:text="@string/topic"
+        android:textColor="#33CC00"
+        android:textSize="45sp" />
 
-        <TextView
-            android:id="@+id/syllabus"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/topic"
-            android:textColor="#33CC00"
-            android:textSize="45sp" />
-
-        <TextView
-            android:id="@+id/subject"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/subject"
-            android:textColor="#45B4FF"
-            android:textSize="35sp" />
-    </LinearLayout>
-
-    <TableLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="91dp" >
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/syllabus"
+        android:gravity="center"
+        android:text="@string/subject"
+        android:textColor="#45B4FF"
+        android:textSize="35sp" />
 
-        <TableRow
-            android:id="@+id/tableRow1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center" 
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp">
+    <ImageButton
+        android:id="@+id/lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/quiz"
+        android:background="#ffffff"
+        android:contentDescription="@string/schoice"
+        android:src="@drawable/lessionr" />
 
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical" >
+    <ImageButton
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/lesson"
+        android:layout_marginRight="54dp"
+        android:background="#ffffff"
+        android:contentDescription="@string/schoice"
+        android:src="@drawable/quizr" />
 
-                <ImageButton
-                    android:id="@+id/lesson"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:background="#ffffff"
-                    android:contentDescription="@string/schoice"
-                    android:src="@drawable/lessionr" />
+    <TextView
+        android:id="@+id/txtquiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quiz"
+        android:layout_below="@+id/quiz"
+        android:layout_marginLeft="12dp"
+        android:paddingLeft="5dp"
+        android:text="@string/quizzes"
+        android:textColor="#62c0ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/txtlesson"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/lesson"
-                    android:textColor="#33cc00"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+    <TextView
+        android:id="@+id/txthelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/help"
+        android:layout_below="@+id/about"
+        android:layout_marginRight="14dp"
+        android:text="@string/help"
+        android:textColor="#62c0ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical" >
+    <TextView
+        android:id="@+id/txtlesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lesson"
+        android:layout_below="@+id/lesson"
+        android:paddingLeft="0dp"
+        android:text="@string/lesson"
+        android:textColor="#62c0ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-                <ImageButton
-                    android:id="@+id/quiz"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff"
-                    android:contentDescription="@string/schoice"
-                    android:src="@drawable/quizr" />
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtlesson"
+        android:layout_below="@+id/txtlesson"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:contentDescription="@string/schoice"
+        android:src="@drawable/aboutr" />
 
-                <TextView
-                    android:id="@+id/txtquiz"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/quizzes"
-                    android:textColor="#33cc00"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </TableRow>
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/about"
+        android:layout_alignLeft="@+id/quiz"
+        android:background="#ffffff"
+        android:contentDescription="@string/schoice"
+        android:src="@drawable/helpr" />
 
-        <TableRow
-            android:id="@+id/tableRow2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp" >
-
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical" >
-
-                <ImageButton
-                    android:id="@+id/help"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff"
-                    android:contentDescription="@string/schoice"
-                    android:src="@drawable/helpr" />
-
-                <TextView
-                    android:id="@+id/txthelp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/help"
-                    android:textColor="#33cc00"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical" >
-
-                <ImageButton
-                    android:id="@+id/about"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#ffffff"
-                    android:contentDescription="@string/schoice"
-                    android:src="@drawable/aboutr" />
-
-                <TextView
-                    android:id="@+id/txtabout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/about"
-                    android:textColor="#33cc00"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </TableRow>
-    </TableLayout>
+    <TextView
+        android:id="@+id/txtabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txthelp"
+        android:layout_alignBottom="@+id/txthelp"
+        android:layout_alignLeft="@+id/about"
+        android:text="@string/about"
+        android:textColor="#62c0ff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
